@@ -1,0 +1,75 @@
+<style>
+*{
+    font-family:'맑은 고딕', Arial, Helvetica, sans-serif;
+}
+header h1{
+    display: inline;
+    font-size: 1.2em;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+nav ul {
+    border-top: 2px solid rgb(30, 134, 231);
+    border-bottom: 2px solid rgb(30, 134, 231);
+    padding: 10px 15px;
+    text-align: center;
+    word-spacing: 50px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 30px 10px 30px;
+    letter-spacing: 10px;
+}
+nav ul li:hover{
+    background-color:  rgb(180, 212, 241);
+}
+.photo > img{
+    padding-top: 50px;
+    display: block;
+    margin: 3px;
+    width: 60%;
+}
+
+.table1{
+    width: 50%;
+    font-size: 1.1em;
+    text-align: left;
+}
+.table2{
+    width: 70%;
+    font-size: 1.1em;
+}
+.right{
+    margin-top: 10px;
+}
+body{
+    margin: 0 auto;
+    width: 80vw;
+    background-color: azure;
+}
+header, footer{
+    height: 70px;
+    font-size: 1.2em;
+}
+nav {
+    height: 50px;
+}
+section{
+    display: flex;
+}
+.content{
+    flex : 4;
+}
+aside{
+    flex : 1;
+}
+footer{
+    background-color: darkgray;
+    color: whitesmoke;
+}
+
+</style>

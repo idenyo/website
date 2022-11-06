@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/775c063c3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <title>PCS</title>
+    <style>
+        .right{
+            text-align: center;
+        }
+        .imglist{
+            display: grid;
+            grid-template-areas: 
+            ' a a b'
+            ' c d e '
+            ' c f f ';
+            grid-gap: 1rem;
+            grid-auto-rows: 350px;
+        }
+        .image{
+            width: 95%;
+            height: 100%;
+        }
+        .img1{
+            grid-area: a;
+        }
+        .img2{
+            grid-area: b;
+        }
+        .img3{
+            grid-area: c;
+        }
+        .img4{
+            grid-area: d;
+        }
+        .img5{
+            grid-area: e;
+        }
+        .img6{
+            grid-area: f;
+        }
+    </style>
+</head>
+<body>
+    <header id="home">
+     <i class="fa-solid fa-bars"></i>
+     <h1> <a href="index.html">갤러리</a></h1>
+    </header>
+    <nav>
+     <ul>
+         <li><a href="#">새소식</a></li>
+         <li><a href="#">소개</a></li>
+         <li><a href="#">원해요</a></li>
+         <li><a href="./community.html">커뮤니티</a></li>
+         <li><a href="./gallery.html">갤러리</a></li>
+     </ul>
+    </nav>
+    <div>
+        <h2>이용후기</h2>
+         <table class="table2" border="1">
+            <tr>
+                <td>박OO</td>
+                <td>2박 3일 여행으로 저희집 반려묘를 혼자 두기가 걱정이 됐는데 덕분에 편히 다녀왔어요!</td>
+            </tr>
+            <tr>
+                <td>이OO</td>
+                <td>저희집 반려견이 털이 뭉친 곳도 많고 피부가 많이 안좋았는데 깔끔하게 다듬고 케어해주셔서 감사했어요~</td>
+            </tr>
+            <tr>
+                <td>조OO</td>
+                <td>1개월 된 앵무새를 분양 받았는데 먹이는 어떤 걸 줘야하고 어떻게 키워야하는지 몰랐는데 훈련사님이 친절하게 알려주셔서 좋았어요.</td>
+            </tr>
+            <tr>
+                <td>강OO</td>
+                <td>저희집에서 고슴도치와 미어캣 이렇게 두 마리를 키우는데 잠시 집을 비워할 일이 생겨서 맡길 곳을 찾느라 고생했는데 이 사이트는 어떤 동물이든 지식이 빠삭해서 신뢰하고 맡길 수 있겠더라구요</td>
+            </tr>
+         </table>
+     </div>
+     <br>
+    <section>
+     <article>
+        <div class="imglist">
+            <img src="./images/animal1.jpg" alt="" class="image img1">
+            <img src="./images/animal2.jpg" alt="" class="image img2">
+            <img src="./images/animal3.jpg" alt="" class="image img3">
+            <img src="./images/animal4.jpg" alt="" class="image img4">
+            <img src="./images/animal5.jpg" alt="" class="image img5">
+            <img src="./images/animal6.jpg" alt="" class="image img6">
+        </div>
+        <br>
+     </article>
+     <aside class="right">
+        <table class="table3" border="1">
+            <tr>
+                <td>반려동물 자랑</td>
+            </tr>
+            <tr>
+                <td>이용후기</td>
+            </tr>
+            <tr>
+                <td>비포&애프터</td>
+            </tr>
+            <tr>
+                <td>이벤트 참여</td>
+            </tr>
+            <tr>
+                <td>이벤트 후기</td>
+            </tr>
+        </table>
+     </aside>
+    </section>
+    <footer>
+        copyright@이상민
+        <div class="sns">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-sharp fa-solid fa-envelope"></i>
+        </div>
+     </footer>   
+</body>
+</html>
